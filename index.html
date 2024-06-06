@@ -12,6 +12,9 @@
             box-sizing: border-box;
             background-color: #121212;
             color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         header {
             background: #1f1f1f;
@@ -24,6 +27,7 @@
             padding: 2em;
             max-width: 1200px;
             margin: auto;
+            flex: 1;
         }
         h1, h2, h3 {
             color: #e0e0e0;
@@ -43,9 +47,6 @@
             text-align: center;
             padding: 1em 0;
             border-top: 1px solid #333;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
         }
         a {
             color: #1e90ff;
@@ -81,18 +82,12 @@
         <section class="clients">
             <h2>Our Clients</h2>
             <p>We have had the pleasure of working with a diverse range of clients across various industries. Here are some of the companies we've created software for:</p>
-            <ul>
-                <li>Company A</li>
-                <li>Company B</li>
-                <li>Company C</li>
-            </ul>
         </section>
 
         <section class="contact">
             <h2>Contact Us</h2>
             <p>If you have any questions or would like to discuss how we can help your business, please reach out to us:</p>
-            <p>Email: <a href="mailto:info@onbrandsoftware.com">info@onbrandsoftware.com</a></p>
-            <p>Phone: (123) 456-7890</p>
+            <p>Email: <a href="mailto:info@onbrand.software">info@onbrand.software</a></p>
         </section>
     </div>
 
