@@ -10,12 +10,15 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            background-color: #121212;
+            color: #e0e0e0;
         }
         header {
-            background: #007BFF;
-            color: white;
+            background: #1f1f1f;
+            color: #e0e0e0;
             padding: 1em 0;
             text-align: center;
+            border-bottom: 1px solid #333;
         }
         .container {
             padding: 2em;
@@ -23,24 +26,33 @@
             margin: auto;
         }
         h1, h2, h3 {
-            color: #333;
+            color: #e0e0e0;
         }
-        .services, .clients {
+        section {
             margin-top: 2em;
+            border: 1px solid #333;
+            padding: 1em;
+            border-radius: 5px;
         }
         .contact {
-            background: #f4f4f4;
-            padding: 1em;
-            margin-top: 2em;
+            background: #1f1f1f;
         }
         footer {
-            background: #333;
-            color: white;
+            background: #1f1f1f;
+            color: #e0e0e0;
             text-align: center;
             padding: 1em 0;
+            border-top: 1px solid #333;
             position: absolute;
             bottom: 0;
             width: 100%;
+        }
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
         @media (max-width: 600px) {
             .container {
